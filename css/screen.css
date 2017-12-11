@@ -171,7 +171,7 @@ input[type="checkbox"] {
 	content: '';
 	border-left: 1px solid #f5d6d6;
 	border-right: 1px solid #f5d6d6;
-	width: 2px;
+	width: 30px;
 	position: absolute;
 	top: 0;
 	left: 20px;
@@ -402,10 +402,11 @@ label[for='toggle-all'] {
   display: none;
 }
 #todo-list li .input-par {
-  width:200px;
-  border-radius:10px;
-  height:50px;
-  font-size:15px;
+    width: 80%;
+    margin-left: 60px;
+    border-radius: 5px;
+    height: 50px;
+    font-size: 15px;
 }
 
 #todo-list li .destroy:hover {
@@ -980,13 +981,13 @@ ul.nav > li.brand > a {
 
 #todo-list li .reply {
     display: none;
-    text-align: center;
-    width: 40px;
+    /*text-align: left;*/
+    width: 5px;
     height: auto;
     position: absolute;
     top: 0;
     bottom: 0;
-    margin: auto 0;
+    /*margin: auto 0;*/
     border: none;
     -webkit-appearance: none;
 }
@@ -1046,6 +1047,9 @@ ul.nav > li.brand > a {
 
 .blog-name {
     color: black;
+    background-color: #d6d6d4;
+    border-radius: 5px;
+    text-align: center;
 }
 
 .margin-download {
@@ -1082,4 +1086,24 @@ ul.nav > li.brand > a {
 }
 .todo-front-size {
     font-size: 1rem;
+}
+
+/* 最多只能放19个词*/
+.wcanvas {
+    display: none;
+    width: 100%;
+}
+
+.please-login {
+    text-align: center;
+    line-height: 200px;
+}
+
+.steve-chan-img {
+    width: 90%;
+    border-radius: 3px;
+}
+
+.about-margin {
+    margin-top: 50px;
 }
